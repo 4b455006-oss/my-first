@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>王耀廷｜個人網站</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!-- 原始 W3.CSS -->
+<link rel="stylesheet" href="w3.css">
+
+<!-- 自訂 CSS -->
+<link rel="stylesheet" href="ex9.css">
+
+</head>
+
+<body>
+
+<!-- Navbar 導覽列 -->
+<div class="w3-flex w3-top custom-navbar w3-wide w3-padding w3-card">
+
+  <a href="#home" class="w3-button custom-nav-button">
+    王耀廷
+  </a>
+
+  <nav class="w3-flex w3-hide-small" style="margin-left:auto">
+    <a href="#about" class="w3-button custom-nav-button">關於我</a>
+    <a href="#menu" class="w3-button custom-nav-button">我的興趣</a>
+    <a href="#contact" class="w3-button custom-nav-button">聯絡資訊</a>
+  </nav>
+
+</div>
+
+<!-- Header 首頁 -->
+<header id="home" class="w3-display-container custom-header">
+
+  <img src="123.jpg"
+       style="width:100%"
+       alt="個人網站首頁圖片">
+
+  <div class="w3-display-bottomleft w3-padding custom-header-text">
+    <h1>王耀廷｜個人網站</h1>
+    <p>Keep going. Keep creating.</p>
+  </div>
+
+</header>
+
+<!-- Page Content -->
+<main class="w3-content custom-main" style="max-width:1100px">
+
+<!-- About 關於我 -->
+<section id="about" class="w3-grid w3-padding-64 custom-section"
+style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
+
+  <!-- 左側圖片 -->
+  <div class="w3-padding-large">
+    <img src="1234.jpg"
+         class="w3-round custom-image"
+         style="width:100%"
+         alt="個人生活照片">
+  </div>
+
+  <!-- 右側介紹 -->
+  <div class="w3-padding-large">
+
+    <h1 class="w3-center">About Me</h1>
+
+    <h5 class="w3-center">Keep going. Keep creating.</h5>
+
+    <p class="w3-large">
+      我是王耀廷，目前就讀南臺科技大學。
+      平常喜歡籃球、音樂、饒舌創作，
+      也正在學習網頁設計與各種新事物。
+    </p>
+
+    <p class="w3-large w3-text-grey">
+      希望透過不斷學習，提升自己的能力，
+      探索更多可能，並創作出屬於自己的作品。
+      在生活中持續成長，找到自己真正想走的方向。
+    </p>
+
+  </div>
+
+</section>
+
+<hr>
+
+<!-- Menu 我的興趣 -->
+<section id="menu" class="w3-grid w3-padding-64 custom-section"
+style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
+
+  <!-- 左側興趣介紹 -->
+  <div class="w3-padding-large">
+
+    <h1 class="w3-center">My Interests</h1>
+
+    <h4>Basketball｜籃球</h4>
+    <p class="w3-text-grey">
+      享受球場上的競爭、團隊合作，
+      以及不斷進步的過程。
+    </p>
+
+    <h4>Music｜音樂</h4>
+    <p class="w3-text-grey">
+      喜歡各種音樂，也希望創作出屬於自己的作品。
+    </p>
+
+    <h4>Rap｜饒舌創作</h4>
+    <p class="w3-text-grey">
+      透過饒舌與文字表達自己的想法、情緒及生活。
+    </p>
+
+    <h4>Web Design｜網頁設計</h4>
+    <p class="w3-text-grey">
+      學習 HTML、CSS，設計並製作自己的網頁。
+    </p>
+
+  </div>
+
+  <!-- 右側圖片 -->
+  <div class="w3-padding-large">
+    <img src="21.jpg"
+         class="w3-round custom-image"
+         alt="我的興趣"
+         style="width:100%">
+  </div>
+
+</section>
+
+<hr>
+
+<!-- Contact 聯絡資訊 -->
+<section id="contact" class="w3-container w3-padding-64 custom-section">
+
+  <h1>Contact</h1>
+
+  <p>
+    每一次的學習與嘗試，
+    都是讓自己變得更好的過程。
+  </p>
+
+  <p class="w3-text-blue-grey w3-large">
+    <b>王耀廷｜南臺科技大學</b>
+  </p>
+
+  <p>
+    歡迎瀏覽我的個人網站，
+    一起分享生活、興趣與學習。
+  </p>
+
+  <form action="#" onsubmit="alert('感謝你的留言！'); return false;">
+
+    <p>
+      <input class="w3-input w3-padding-16 custom-input"
+      type="text" placeholder="姓名" required name="Name">
+    </p>
+
+    <p>
+      <input class="w3-input w3-padding-16 custom-input"
+      type="email" placeholder="電子郵件" required name="Email">
+    </p>
+
+    <p>
+      <input class="w3-input w3-padding-16 custom-input"
+      type="text" placeholder="留言內容" required name="Message">
+    </p>
+
+    <p>
+      <button class="w3-button custom-button w3-section"
+      type="submit">
+      SEND MESSAGE
+      </button>
+    </p>
+
+  </form>
+
+</section>
+
+</main>
+
+<!-- Map / 生活圖片 -->
+<img src="12345.jpg"
+     style="width:100%"
+     alt="生活風景">
+
+<!-- Footer 頁尾 -->
+<footer class="w3-center custom-footer w3-padding-32">
+
+  <p>王耀廷｜個人網站</p>
+
+  <p>Keep going, keep growing.</p>
+
+  <p>
+    Powered by
+    <a href="https://www.w3schools.com/w3css/default.asp"
+       title="W3.CSS"
+       target="_blank">
+       W3.CSS
+    </a>
+  </p>
+
+</footer>
+
+</body>
+</html>
